@@ -7,7 +7,6 @@ import './pages.css';
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { GiSilverBullet } from "react-icons/gi";
 
-
 function ProtectedPage() {
   const navigate = useNavigate();
   const handleVerify = useCallback(async () => {
