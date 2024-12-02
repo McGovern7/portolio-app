@@ -4,7 +4,7 @@ import { Portfolio, ResumePage, Home, Profile, Register, ProtectedPage, NoPage }
 
 const App = () => {
   return ( // react can only return one element
-    <BrowserRouter>
+    <BrowserRouter basename="portfolio-app/frontend/portfolio-app">
       <Routes>
         <Route index element={<Home />} />
         <Route path='/portfolio' element={<Portfolio />} />
